@@ -8,11 +8,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print Message
-        run: echo "Hello GitHub Actions"
+      - name: Chechout Repository
+        run: actions/checkout@v4
 
-      - name: Print Message2
-        run: echo "Running Commands"
+      - name: Print Current Directory 
+        run: pwd
 
-      - name: Print Message3
-        run: echo "Workflow Completed"
+      - name: List Files
+        run: ls -la
+
+      - name: Display Current User
+        run: whoami
+
+      - name: Display date
+        run: date
