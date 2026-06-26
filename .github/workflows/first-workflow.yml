@@ -10,3 +10,9 @@ jobs:
     steps:
       - name: Print Message
         run: echo "Hello GitHub Actions"
+
+      - name: Print Message2
+        run: echo "Running Commands"
+
+      - name: Print Message3
+        run: echo "Workflow Completed"
