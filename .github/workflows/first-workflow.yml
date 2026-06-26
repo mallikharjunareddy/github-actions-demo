@@ -22,3 +22,15 @@ jobs:
 
       - name: Display date
         run: date
+
+      - name: Create File
+        run: echo "Hello GitHub Actions" > message.txt
+
+      - name: Read File
+        run: cat message.txt
+
+      - name: Multiple Commands
+        run: | 
+          echo "Workflow Finished"
+          pwd
+          ls
