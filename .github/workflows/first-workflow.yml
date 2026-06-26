@@ -1,10 +1,10 @@
-name: My First Workflow
+name: GitHub Actions Basics
 
 on:
   push:
 
 jobs:
-  hello:
+  Basics:
     runs-on: ubuntu-latest
 
     steps:
