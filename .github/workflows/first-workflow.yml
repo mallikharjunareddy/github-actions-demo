@@ -5,8 +5,8 @@ on:
 
 jobs:
    hello:
-   runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
    steps:
-   -name: Print Message
-   run: echo "Hello GitHub Account"
+     - name: Print Message
+     run: echo "Hello GitHub Account"
